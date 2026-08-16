@@ -1,3 +1,12 @@
+10Alytics Case Study: LagosGrid
+LagosGrid - Smart City Transit AnalyticsRunning for: 12 monthsScale: 50K Registered users,500 Active vehicles, 20 Transit stations.
+Real-time trip data generated every second.
+The Data Problem:
+All that data lives in a relational database. 
+It  answer business questions like:Peak hours, Top routes, Revenue gaps,Fraud patterns, Underutilized stations,
+The Bottleneck: Only 2 engineers can query it right now.
+Role: Data Engineer — unlock the data for the whole organisation.
+	
 --- Create Route Table
 CREATE TABLE routes(
 	route_id SERIAL PRIMARY KEY,
